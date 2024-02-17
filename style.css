@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/teste1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+header h2{
+    color: #fff;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 6px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0px 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    transition: .9s;
+}
+
+.nav-link:hover{
+    font-size: 20px;
+}
+
+.user ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.user{
+    margin: 0px 16px;
+}
+
+.nav-user{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.login img{
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.descricao{
+    margin: 0px 60px;
+    color: #fff;
+    flex: 1;
+    max-width: 50%; /* Define a largura máxima para a descrição */
+}
+
+.descricao button{
+    margin: 16px 0px;
+    padding: 12px 18px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.secao{
+    display: block;
+}
+
+.secao h1{
+    margin: 10px 0px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 60px;
+}
+
+.explorar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.explorar img{
+    margin-left: 16px;
+    width: 20px;
+}
+
+.slide-card {
+    width: 260px;
+    height: calc(100vh - 200px); /* Ajuste a altura máxima conforme necessário */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+    justify-content: center;
+    margin: 20px 120px;
+    text-align: center;
+    max-width: 50%; /* Define a largura máxima para os slides */
+    flex: 1;
+    overflow: auto; /* Adiciona uma barra de rolagem caso o conteúdo exceda a largura */
+} 
+
+.slide-card img{
+    height: auto;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.avaliacao{
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    color: #fff;
+}
+
+
+.avaliacao img{
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.avaliacao h4{
+    font-family: 'Fredoka', sans-serif;
+    background-color: darkblue;
+    border-bottom: 2px solid #fff;
+}
+
+.avaliacao p{
+    font-size: 16px;
+}
+
+.avaliacao ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.avaliacao ul li{
+    margin-right: 5px;
+}
+
+.avaliacao ul li:last-child {
+    margin-right: 0;
+}
+
+.avaliacao h6{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#rio{
+    margin-right: 200px;
+}
+
+#paris{
+    margin-right: 200px;
+}
+
+.slide-card button{
+    padding: 10px 16px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.slide-card button:hover{
+    background-color: darkblue;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: darkblue;
+}
